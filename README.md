@@ -1,9 +1,10 @@
 ### Hi there 👋
-- 🌱 I’m currently learning javascript
+- 🌱 I’m currently learning go, javascript
+- 🔭 I’m currently working on laravel
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)
 <!--
-**ariakm25/ariakm25** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**alvnfaiz/alvnfaiz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
