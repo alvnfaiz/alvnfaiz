@@ -3,8 +3,13 @@
 ### Hi there 👋
 - 🌱 I’m currently learning go, javascript
 - 🔭 I’m currently working on laravel
+- 📫 How to reach me: alvin.eagle.23@gmail.com
+- 
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)
+
+
+[![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Montserrat&color=%2336BCF7&duration=4000&center=true&lines=Alvin+Faiz;Fullstack+Developer;PHP%2C+Java%2C+Javascript%2C+Python;Laravel%2C+Tailwind%2C+Bootstrap)](https://git.io/typing-svg)
 
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=alvnfaiz&layout=compact" />
