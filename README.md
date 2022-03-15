@@ -11,7 +11,7 @@
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Montserrat&color=%2336BCF7&duration=4000&center=true&lines=Alvin+Faiz;Fullstack+Developer;PHP%2C+Java%2C+Javascript%2C+Python;Laravel%2C+Tailwind%2C+Bootstrap)](https://git.io/typing-svg)
 
-![Alvin's  Faiz GitHub stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz)
+[![ariakm25 wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=alvnfaiz&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
