@@ -1,4 +1,4 @@
-![Alvin Faiz's card name](https://cardivo.vercel.app/api?name=Alvin%20Faiz&description=Hi%2C%20I%27m%20Alvin%20Faiz%2C%20working%20as%20Backend%20Dev%2C%20and%20currently%20studying%20Frontend%20Dev.%20Nice%20To%20Meet%20You%F0%9F%91%8B&fontColor=%23035785&image=https://avatars.githubusercontent.com/u/17441900&u=acb8f5ca5c6f9a886400758a7e2eec42ca4fe91a&v=4&backgroundColor=%23d1f1f1&linkedin=Alvin%20Faiz%20Zulfitri&instagram=alvnfaiz&twitter=alvnfaiz&github=alvnfaiz&site=https://alvindev.com&pattern=leaf&colorPattern=%23eaeaea)
+![Alvin Faiz's card name](https://cardivo.vercel.app/api?name=Alvin%20Faiz&description=Hi%2C%20I%27m%20Alvin%20Faiz%2C%20working%20as%20Backend%20Dev%2C%20and%20currently%20studying%20Frontend%20Dev.%20Nice%20To%20Meet%20You%F0%9F%91%8B&fontColor=%23035785&image=https://avatars.githubusercontent.com/u/17441900&u=acb8f5ca5c6f9a886400758a7e2eec42ca4fe91a&v=4&backgroundColor=%23ecf0f1&linkedin=Alvin%20Faiz%20Zulfitri&instagram=alvnfaiz&twitter=alvnfaiz&github=alvnfaiz&site=https://alvindev.com&pattern=leaf&colorPattern=%23eaeaea)
 
 ### Hi there 👋
 - 🌱 I’m currently learning go, javascript
