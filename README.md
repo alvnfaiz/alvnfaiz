@@ -11,6 +11,10 @@
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Montserrat&color=%2336BCF7&duration=4000&center=true&lines=Alvin+Faiz;Fullstack+Developer;PHP%2C+Java%2C+Javascript%2C+Python;Laravel%2C+Tailwind%2C+Bootstrap)](https://git.io/typing-svg)
 
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=alvnfaiz&layout=compact" />
 <!--
@@ -27,3 +31,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
