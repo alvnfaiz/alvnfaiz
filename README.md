@@ -14,6 +14,11 @@
 [![ariakm25 wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=alvnfaiz&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--START_SECTION:waka-->
+
+```text
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
