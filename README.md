@@ -16,7 +16,14 @@
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 14 February 2022 - To: 16 March 2022
+
+Total Time: 2 hrs 17 mins
+
+Markdown   1 hr 27 mins    ████████████████░░░░░░░░░   63.96 %
+HTML       44 mins         ████████░░░░░░░░░░░░░░░░░   32.37 %
+Java       5 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.64 %
+CSS        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
 ```
 
 <!--END_SECTION:waka-->
