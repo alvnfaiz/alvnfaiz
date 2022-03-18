@@ -1,6 +1,6 @@
 ### Hi there 👋
-- 🌱 I’m currently learning go, javascript
-- 🔭 I’m currently working on laravel
+- 🌱 I’m currently learning Vue, Javascript, Typescript
+- 🔭 I’m currently working on laravel, Tailwind, Bootstrap
 - 📫 How to reach me: alvin.eagle.23@gmail.com
 
 
