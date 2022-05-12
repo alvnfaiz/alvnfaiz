@@ -16,16 +16,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 10 April 2022 - To: 10 May 2022
+From: 11 April 2022 - To: 11 May 2022
 
-Total Time: 18 hrs 41 mins
+Total Time: 18 hrs 51 mins
 
-JavaScript       10 hrs 7 mins   █████████████▒░░░░░░░░░░░   53.49 %
-HTML             2 hrs 43 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.44 %
-JSON             1 hr 17 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.80 %
-Vue.js           1 hr 16 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.77 %
-CSS              1 hr 4 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.65 %
-Blade Template   58 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.13 %
+JavaScript       10 hrs 7 mins   █████████████▒░░░░░░░░░░░   53.01 %
+HTML             2 hrs 43 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.31 %
+Vue.js           1 hr 27 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   07.60 %
+JSON             1 hr 17 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.74 %
+CSS              1 hr 4 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.60 %
+Blade Template   58 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.08 %
 ```
 
 <!--END_SECTION:waka-->
