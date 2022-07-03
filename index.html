@@ -4,7 +4,11 @@
     <script>
       var lati = "";
 var lngi = "";
-
+const options = {
+    enableHighAccuracy: true,
+    timeout: 5000,
+    maximumAge: 0
+  };
 const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
 function success(pos){
     const crd = pos.coords;
@@ -17,11 +21,7 @@ function success(pos){
   console.log(`More or less ${crd.accuracy} meters.`);
 }
 
-const options = {
-    enableHighAccuracy: true,
-    timeout: 5000,
-    maximumAge: 0
-  };
+
 
 async function getLocation() {
     const coords = await geolocator;
