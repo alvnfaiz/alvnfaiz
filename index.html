@@ -34,45 +34,44 @@ body {
 }
       </style>
     <script>
-      var lati = "";
-var lngi = "";
-const options = {
-    enableHighAccuracy: true,
-    timeout: 5000,
-    maximumAge: 0
-  };
-const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
-function success(pos){
-    const crd = pos.coords;
-    lati = crd.latitude;
-    lngi = crd.longitude;
-    const current  = { lat: lati, lng: lngi };
-  console.log('Your current position is:');
-  console.log(`Latitude : ${crd.latitude}`);
-  console.log(`Longitude: ${crd.longitude}`);
-  console.log(`More or less ${crd.accuracy} meters.`);
-}
+//       var lati = "";
+// var lngi = "";
+// const options = {
+//     enableHighAccuracy: true,
+//     timeout: 5000,
+//     maximumAge: 0
+//   };
+// const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
+// function success(pos){
+//     const crd = pos.coords;
+//     lati = crd.latitude;
+//     lngi = crd.longitude;
+//     const current  = { lat: lati, lng: lngi };
+//   console.log('Your current position is:');
+//   console.log(`Latitude : ${crd.latitude}`);
+//   console.log(`Longitude: ${crd.longitude}`);
+//   console.log(`More or less ${crd.accuracy} meters.`);
+// }
 
 
 
-async function getLocation() {
-    const coords = await geolocator;
-    console.log(coords);
-}
-getLocation();
+// async function getLocation() {
+//     const coords = await geolocator;
+// }
+// getLocation();
 
 const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
 let map, infoWindow;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: lati, lng: lngi },
+    center: { lat: -0.24, lng: 100.65 },
     zoom: 13,
   });
-  const marker = new google.maps.Marker({
-    position: { lat: lati, lng: lngi },
-    map: map,
-  });
+//   const marker = new google.maps.Marker({
+//     position: { lat: lati, lng: lngi },
+//     map: map,
+//   });
   infoWindow = new google.maps.InfoWindow();
 
   const locationButton = document.createElement("button");
