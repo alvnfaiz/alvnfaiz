@@ -92,7 +92,11 @@
       })();
       const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
       let map, infoWindow;
-
+      
+      function error_loc(){
+        document.getElementById('msg').innerHTML = "Tidak mendapatkan lokasimu";
+      }
+      
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
           center: { lat : -0.3076855, lng: 100.3827078},
@@ -137,6 +141,7 @@
             );
           } else {
             // Browser doesn't support Geolocation
+            alert('Tidak mendapatkan lokasimu');
             handleLocationError(false, infoWindow, map.getCenter());
           }
         });
