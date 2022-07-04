@@ -108,7 +108,7 @@
         });
         var line = new google.maps.Polyline({path: [loc, point1], map: map});
         distance1 = haversine_distance(marker, marker1);
-        document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.<br/>Akurasi " + loc.acc + "m";
+        document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.<br/>Akurasi <= " + loc.acc + "m";
         infoWindow = new google.maps.InfoWindow();
 
         const locationButton = document.createElement("button");
