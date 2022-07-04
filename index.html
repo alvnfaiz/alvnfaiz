@@ -66,12 +66,14 @@
           latitude: crd.latitude,
           longitude: crd.longitude,
           lat: crd.latitude,
-          lng: crd.longitude
+          lng: crd.longitude,
+          acc : crd.accuracy
         }
         console.log('Your current position is:');
         console.log(`Latitude : ${crd.latitude}`);
         console.log(`Longitude: ${crd.longitude}`);
         console.log(`More or less ${crd.accuracy} meters.`);
+        
 
       }
 
@@ -81,7 +83,7 @@
           const coords = await geolocator;
       }
       getLocation();
-      const point1 = { latitude : -0.3108427, longitude: 100.3827078, lat: -0.3108427, lng: 100.3827078};
+      const point1 = { latitude : -0.3128321, longitude: 100.3737869, lat: -0.3128321, lng: 100.3737869};
       function distance(){
         console.log(haversine(point1, loc, {unit: 'meter'}))
       }
@@ -106,7 +108,7 @@
         });
         var line = new google.maps.Polyline({path: [loc, point1], map: map});
         distance1 = haversine_distance(marker, marker1);
-        document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.";
+        document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.<br/>Akurasi " + loc.acc + "m";
         infoWindow = new google.maps.InfoWindow();
 
         const locationButton = document.createElement("button");
