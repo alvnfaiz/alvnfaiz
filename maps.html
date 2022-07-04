@@ -140,14 +140,14 @@
                     return;
                   }
                   else {
-                    document.getElementById('msg').innerHTML += " Driving distance is " + directionsData.distance.text + " (" + directionsData.duration.text + ").";
+                    document.getElementById('msg').innerHTML += " Mengemudi selama " + directionsData.distance.text + " (" + directionsData.duration.text + ").";
                   }
                 }
               });
             //map.setCenter(pos);
             var distance = haversine_distance(marker1, marker2);
             var msg = document.getElementById("msg");
-            msg.innerHTML = "Jarak anda dengan lapangan kantin adalah " + distance + " meter <br/>Tingkat Akurasi <= " + position.coords.accuracy.toFixed(2) + " km";
+            msg.innerHTML = "Jarak anda dengan lapangan kantin adalah " + distance.toFixed(2) + " meter <br/>Tingkat Akurasi <= " + position.coords.accuracy.toFixed(2) + " km";
           }, () => {
             handleLocationError(true, infoWindow, map.getCenter());
           }, {
