@@ -1,122 +1,117 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-          <style>
-        #map {
-  height: 100%;
-  
-}
+    <script src="./haversine.js"></script>
+    <style>
+      #map {
+        height: 100%;
+      }
+      html,body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
 
-/* 
- * Optional: Makes the sample page fill the window. 
- */
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.custom-map-control-button {
-  background-color: #fff;
-  border: 0;
-  border-radius: 2px;
-  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
-  margin: 10px;
-  padding: 0 0.5em;
-  font: 400 18px Roboto, Arial, sans-serif;
-  overflow: hidden;
-  height: 40px;
-  cursor: pointer;
-}
-.custom-map-control-button:hover {
-  background: rgb(235, 235, 235);
-}
-      </style>
+      .custom-map-control-button {
+        background-color: #fff;
+        border: 0;
+        border-radius: 2px;
+        box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+        margin: 10px;
+        padding: 0 0.5em;
+        font: 400 18px Roboto, Arial, sans-serif;
+        overflow: hidden;
+        height: 40px;
+        cursor: pointer;
+      }
+      .custom-map-control-button:hover {
+        background: rgb(235, 235, 235);
+      }
+    </style>
     <script>
-var lati = "";
-var lngi = "";
-const options = {
-    enableHighAccuracy: true,
-    timeout: 5000,
-    maximumAge: 0
-  };
-const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
-function success(pos){
-    const crd = pos.coords;
-    lati = crd.latitude;
-    lngi = crd.longitude;
-    const current  = { lat: lati, lng: lngi };
-  console.log('Your current position is:');
-  console.log(`Latitude : ${crd.latitude}`);
-  console.log(`Longitude: ${crd.longitude}`);
-  console.log(`More or less ${crd.accuracy} meters.`);
-  
-}
+      var lati = "";
+      var lngi = "";
+      const options = {
+          enableHighAccuracy: true,
+          timeout: 5000,
+          maximumAge: 0
+        };
+      const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
+      function success(pos){
+          const crd = pos.coords;
+          lati = crd.latitude;
+          lngi = crd.longitude;
+          const current  = { lat: lati, lng: lngi };
+        console.log('Your current position is:');
+        console.log(`Latitude : ${crd.latitude}`);
+        console.log(`Longitude: ${crd.longitude}`);
+        console.log(`More or less ${crd.accuracy} meters.`);
+
+      }
 
 
 
-async function getLocation() {
-    const coords = await geolocator;
-}
-getLocation();
-const point1 = { lat : -0.3076855, lng: 100.3827078};
-const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
-let map, infoWindow;
+      async function getLocation() {
+          const coords = await geolocator;
+      }
+      getLocation();
+      const point1 = { lat : -0.3076855, lng: 100.3827078};
+      const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
+      let map, infoWindow;
 
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat : -0.3076855, lng: 100.3827078};,
-    zoom: 13,
-  });
-//   const marker = new google.maps.Marker({
-//     position: { lat: lati, lng: lngi },
-//     map: map,
-//   });
-  infoWindow = new google.maps.InfoWindow();
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat : -0.3076855, lng: 100.3827078};,
+          zoom: 13,
+        });
+      //   const marker = new google.maps.Marker({
+      //     position: { lat: lati, lng: lngi },
+      //     map: map,
+      //   });
+        infoWindow = new google.maps.InfoWindow();
 
-  const locationButton = document.createElement("button");
+        const locationButton = document.createElement("button");
 
-  locationButton.textContent = "Lokasi Saya";
-  locationButton.classList.add("custom-map-control-button");
-  map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
-  locationButton.addEventListener("click", () => {
-    // Try HTML5 geolocation.
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const pos = {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude,
-          };
+        locationButton.textContent = "Lokasi Saya";
+        locationButton.classList.add("custom-map-control-button");
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
+        locationButton.addEventListener("click", () => {
+          // Try HTML5 geolocation.
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+              (position) => {
+                const pos = {
+                  lat: position.coords.latitude,
+                  lng: position.coords.longitude,
+                };
 
-          infoWindow.setPosition(pos);
-          infoWindow.setContent("Location found.");
-          infoWindow.open(map);
-          map.setCenter(pos);
-        },
-        () => {
-          handleLocationError(true, infoWindow, map.getCenter());
-        }
-      );
-    } else {
-      // Browser doesn't support Geolocation
-      handleLocationError(false, infoWindow, map.getCenter());
-    }
-  });
-}
+                infoWindow.setPosition(pos);
+                infoWindow.setContent("Location found.");
+                infoWindow.open(map);
+                map.setCenter(pos);
+              },
+              () => {
+                handleLocationError(true, infoWindow, map.getCenter());
+              }
+            );
+          } else {
+            // Browser doesn't support Geolocation
+            handleLocationError(false, infoWindow, map.getCenter());
+          }
+        });
+      }
 
-function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-  infoWindow.setPosition(pos);
-  infoWindow.setContent(
-    browserHasGeolocation
-      ? "Error: The Geolocation service failed."
-      : "Error: Your browser doesn't support geolocation."
-  );
-  infoWindow.open(map);
-}
+      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
+        infoWindow.setPosition(pos);
+        infoWindow.setContent(
+          browserHasGeolocation
+            ? "Error: The Geolocation service failed."
+            : "Error: Your browser doesn't support geolocation."
+        );
+        infoWindow.open(map);
+      }
 
-window.initMap = initMap;
+      window.initMap = initMap;
     </script>
   </head>
   <body>
