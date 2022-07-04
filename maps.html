@@ -104,7 +104,7 @@
               title: 'Posisi kamu',
             });
 
-            if(marker1.position.lat() < marker2.position.lat()){
+            /*if(marker1.position.lat() < marker2.position.lat()){
               var center = new google.maps.LatLng(
                 marker1.position.lat() + (marker2.position.lat() - marker1.position.lat())/2,
                 marker1.position.lng() + (marker2.position.lng() - marker1.position.lng())/2
@@ -115,7 +115,7 @@
                 marker2.position.lng() + (marker1.position.lng() - marker2.position.lng())/2
               );
             }
-            map.panTo(center);
+            map.panTo(center);*/
 
             let directionsService = new google.maps.DirectionsService();
             let directionsRenderer = new google.maps.DirectionsRenderer();
@@ -147,7 +147,7 @@
             //map.setCenter(pos);
             var distance = haversine_distance(marker1, marker2);
             var msg = document.getElementById("msg");
-            msg.innerHTML = "Jarak anda dengan lapangan kantin adalah " + distance.toFixed(2) + " km <br/>Tingkat Akurasi <= " + position.coords.accuracy.toFixed(2) + " km";
+            msg.innerHTML = "Jarak anda dengan lapangan kantin adalah " + distance.toFixed(2) + " km <br/>Tingkat Akurasi <= " + position.coords.accuracy.toFixed(2) + " m";
           }, () => {
             handleLocationError(true, infoWindow, map.getCenter());
           }, {
@@ -162,6 +162,7 @@
 
       //get_current_location();
       window.initMap = initMap;
+      //document.getElementById(map).style.height = "calc(100vh - " + document.getElementById("msg").offsetHeight + "px)";
     </script>
   </head>
   <body>
