@@ -10,9 +10,12 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        background: #ff3030;
+        background: rgba(239, 68, 68, 0.5);
         color: #fff;
         padding: 10px;
+      }
+      #msg:hover{
+        background: rgba(239, 68, 68);
       }
       html,body {
         height: 100%;
@@ -103,7 +106,7 @@
               map: map,
               title: 'Posisi kamu',
             });
-
+            var line = new google.maps.Polyline({path: [marker1, marker2], map: map, strokeColor: '#ef4444', strokeOpacity: 1.0, strokeWeight: 2});
             /*if(marker1.position.lat() < marker2.position.lat()){
               var center = new google.maps.LatLng(
                 marker1.position.lat() + (marker2.position.lat() - marker1.position.lat())/2,
