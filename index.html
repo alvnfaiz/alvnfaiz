@@ -29,17 +29,8 @@
       }
     </style>
     <script>
-      function haversine_distance(mk1, mk2, satuan = 'km' ) {
+      function haversine_distance(mk1, mk2) {
         var R = 6371;
-        if(satuan == 'km'){
-          R = 6371;
-        }
-        else if(satuan == 'mile' || satuan = 'miles' || satuan = 'mil'){
-          R = 3960;
-        }
-        else if(satuan == 'm' || satuan = 'meter' || satuan = 'meters'){
-          R = 6371000;
-        }
         var rlat1 = mk1.position.lat() * (Math.PI/180); // Convert degrees to radians
         var rlat2 = mk2.position.lat() * (Math.PI/180); // Convert degrees to radians
         var difflat = rlat2-rlat1; // Radian difference (latitudes)
