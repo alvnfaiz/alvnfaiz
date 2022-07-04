@@ -92,11 +92,11 @@
           map: map,
         });
         const marker1 = new google.maps.Marker({
-          position: { lat: lati, lng: lngi },
+          position: point1,
           map: map,
         });
         var line = new google.maps.Polyline({path: [loc, point1], map: map});
-        distance1 = haversine_distance(loc, point1);
+        distance1 = haversine_distance(marker, marker1);
         document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.";
         infoWindow = new google.maps.InfoWindow();
 
