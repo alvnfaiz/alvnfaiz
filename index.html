@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <script src="./haversine.js"></script>
+<!--     <script src="./haversine.js"></script> -->
     <style>
       #map {
         height: 100%;
@@ -29,6 +29,7 @@
       }
     </style>
     <script>
+      var haversine = require('../haversine')
       var lati = "";
       var lngi = "";
       const options = {
@@ -56,6 +57,7 @@
       }
       getLocation();
       const point1 = { lat : -0.3076855, lng: 100.3827078};
+      console.log(haversine(point1, current, {unit: 'meter'}))
       const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
       let map, infoWindow;
 
