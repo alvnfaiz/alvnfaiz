@@ -32,6 +32,7 @@
         overflow: hidden;
         height: 40px;
         cursor: pointer;
+        z-index: 100; position: absolute; top: 0px; left: -505;
       }
       .custom-map-control-button:hover {
         background: rgb(235, 235, 235);
@@ -115,11 +116,12 @@
         document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.<br/>Akurasi <= " + loc.acc + "m";
         infoWindow = new google.maps.InfoWindow();
 
-        const locationButton = document.createElement("button");
+        const locationButton = document.getElementById('but');
 
-        locationButton.textContent = "Lokasi Saya";
-        locationButton.classList.add("custom-map-control-button");
+//         locationButton.textContent = "Lokasi Saya";
+//         locationButton.classList.add("custom-map-control-button");
         map.controls[google.maps.ControlPosition.TOP_CENTER].push(locationButton);
+        
         locationButton.addEventListener("click", () => {
           // Try HTML5 geolocation.
           if (navigator.geolocation) {
@@ -164,6 +166,7 @@
     <div id="map" >
     </div>
     <div id="msg"></div>
+    <button class="custom-map-control-button" id="but">Lokasi Saya</button>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E&callback=initMap&v=weekly" defer></script>
   </body>
 </html>
