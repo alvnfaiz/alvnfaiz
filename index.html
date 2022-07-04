@@ -34,10 +34,10 @@
         if(satuan == 'km'){
           R = 6371;
         }
-        if(satuan == 'mile' || satuan = 'miles' || satuan = 'mil'){
+        else if(satuan == 'mile' || satuan = 'miles' || satuan = 'mil'){
           R = 3960;
         }
-        if(satuan == 'm' || satuan = 'meter' || satuan = 'meters'){
+        else if(satuan == 'm' || satuan = 'meter' || satuan = 'meters'){
           R = 6371000;
         }
         var rlat1 = mk1.position.lat() * (Math.PI/180); // Convert degrees to radians
