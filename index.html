@@ -62,10 +62,12 @@
       }
       getLocation();
       const point1 = { latitude : -0.3076855, longitude: 100.3827078};
-      async function distance(){
+      function distance(){
         console.log(haversine(point1, loc, {unit: 'meter'}))
       }
-      distance;
+      (async function () {
+        console.log(await distance());
+      })();
       const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
       let map, infoWindow;
 
