@@ -29,7 +29,25 @@
       }
     </style>
     <script>
-//       var haversine = require('../haversine')
+      function haversine_distance(mk1, mk2, satuan = 'km' ) {
+        var R = '';
+        if(satuan == km){
+          R = 6371;
+        }
+        if(satuan == mile || satuan = miles || satuan = mil){
+          R = 3960;
+        }
+        if(satuan == m || satuan = meter || satuan = meters){
+          R = 6371000;
+        }
+        var rlat1 = mk1.position.lat() * (Math.PI/180); // Convert degrees to radians
+        var rlat2 = mk2.position.lat() * (Math.PI/180); // Convert degrees to radians
+        var difflat = rlat2-rlat1; // Radian difference (latitudes)
+        var difflon = (mk2.position.lng()-mk1.position.lng()) * (Math.PI/180); // Radian difference (longitudes)
+
+        var d = 2 * R * Math.asin(Math.sqrt(Math.sin(difflat/2)*Math.sin(difflat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(difflon/2)*Math.sin(difflon/2)));
+        return d;
+      }
       var lati = "";
       var lngi = "";
       const options = {
