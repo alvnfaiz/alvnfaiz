@@ -56,7 +56,7 @@
           maximumAge: 0
         };
       var loc = {};
-      const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
+      const geolocator = navigator.geolocation.getCurrentPosition(success, error_loc, options);
       function success(pos){
           const crd = pos.coords;
           lati = crd.latitude;
