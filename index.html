@@ -30,14 +30,14 @@
     </style>
     <script>
       function haversine_distance(mk1, mk2, satuan = 'km' ) {
-        var R = '';
-        if(satuan == km){
+        var R = 6371;
+        if(satuan == 'km'){
           R = 6371;
         }
-        if(satuan == mile || satuan = miles || satuan = mil){
+        if(satuan == 'mile' || satuan = 'miles' || satuan = 'mil'){
           R = 3960;
         }
-        if(satuan == m || satuan = meter || satuan = meters){
+        if(satuan == 'm' || satuan = 'meter' || satuan = 'meters'){
           R = 6371000;
         }
         var rlat1 = mk1.position.lat() * (Math.PI/180); // Convert degrees to radians
@@ -64,7 +64,9 @@
           const current  = { lat: lati, lng: lngi };
         loc = {
           latitude: crd.latitude,
-          longitude: crd.longitude
+          longitude: crd.longitude,
+          lat: crd.latitude,
+          lng: crd.longitude
         }
         console.log('Your current position is:');
         console.log(`Latitude : ${crd.latitude}`);
@@ -79,7 +81,7 @@
           const coords = await geolocator;
       }
       getLocation();
-      const point1 = { latitude : -0.3076855, longitude: 100.3827078};
+      const point1 = { latitude : -0.3076855, longitude: 100.3827078, lat: -0.3076855, lng: 100.3827078};
       function distance(){
         console.log(haversine(point1, loc, {unit: 'meter'}))
       }
@@ -94,10 +96,17 @@
           center: { lat : -0.3076855, lng: 100.3827078},
           zoom: 13,
         });
-      //   const marker = new google.maps.Marker({
-      //     position: { lat: lati, lng: lngi },
-      //     map: map,
-      //   });
+        const marker = new google.maps.Marker({
+          position: { lat: lati, lng: lngi },
+          map: map,
+        });
+        const marker1 = new google.maps.Marker({
+          position: { lat: lati, lng: lngi },
+          map: map,
+        });
+        var line = new google.maps.Polyline({path: [loc, point1], map: map});
+        distance1 = haversine_distance(loc, point1);
+        document.getElementById('msg').innerHTML = "Jarak Kamu dengan Lapangan kantin: " + distance1.toFixed(2) + " km.";
         infoWindow = new google.maps.InfoWindow();
 
         const locationButton = document.createElement("button");
@@ -147,6 +156,7 @@
   <body>
     <div id="map" >
     </div>
+    <div id="msg"></div>
     <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E&callback=initMap&v=weekly" defer></script>
   </body>
 </html>
