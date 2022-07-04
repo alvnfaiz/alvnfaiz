@@ -37,12 +37,14 @@
           timeout: 5000,
           maximumAge: 0
         };
+      var loc = {};
       const geolocator = navigator.geolocation.getCurrentPosition(success, function(){}, options);
       function success(pos){
           const crd = pos.coords;
           lati = crd.latitude;
           lngi = crd.longitude;
           const current  = { lat: lati, lng: lngi };
+        loc = current;
         console.log('Your current position is:');
         console.log(`Latitude : ${crd.latitude}`);
         console.log(`Longitude: ${crd.longitude}`);
@@ -57,7 +59,7 @@
       }
       getLocation();
       const point1 = { lat : -0.3076855, lng: 100.3827078};
-      console.log(haversine(point1, current, {unit: 'meter'}))
+      console.log(haversine(point1, loc, {unit: 'meter'}))
       const gmapsAPI = 'AIzaSyDiAVLIzTW4aLXLCX5Dzvo6aQoWxFGws3E';
       let map, infoWindow;
 
