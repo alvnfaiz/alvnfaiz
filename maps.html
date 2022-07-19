@@ -44,10 +44,10 @@
       let map, infoWindow;
      
       const school = {
-        name: 'Lapangan Kantin',
+        name: 'Politeknik Negeri Padang',
         position: {
-          lat: -0.3127991,
-          lng: 100.3737891
+          lat: -0.9145294230376795,
+          lng: 100.46614485400342
         }
       };
 
@@ -84,12 +84,16 @@
       }
 
       function haversine_distance(mk1, mk2) {
-        var R = 6371;
+        var R = 6371000; // metres
+
         var rlat1 = mk1.position.lat() * (Math.PI/180); // Convert degrees to radians
         var rlat2 = mk2.position.lat() * (Math.PI/180); // Convert degrees to radians
-        var difflat = rlat2-rlat1; // Radian difference (latitudes)
-        var difflon = (mk2.position.lng()-mk1.position.lng()) * (Math.PI/180); // Radian difference (longitudes)
 
+        //var difflat = rlat2-rlat1; // Radian difference (latitudes)
+        var difflat = (mk2.position.lat() - mk1.position.lat()) * (Math.PI/180); // Radian difference (latitudes)
+        var difflon = (mk2.position.lng() - mk1.position.lng()) * (Math.PI/180); // Radian difference (longitudes)
+
+        
         var d = 2 * R * Math.asin(Math.sqrt(Math.sin(difflat/2)*Math.sin(difflat/2)+Math.cos(rlat1)*Math.cos(rlat2)*Math.sin(difflon/2)*Math.sin(difflon/2)));
         return d;
       }
