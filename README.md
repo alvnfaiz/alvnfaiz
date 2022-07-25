@@ -16,7 +16,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-No activity tracked
+From: 24 June 2022 - To: 24 July 2022
+
+Total Time: 65 hrs 57 mins
+
+Vue.js           27 hrs 35 mins  ██████████▒░░░░░░░░░░░░░░   41.62 %
+PHP              11 hrs 23 mins  ████▒░░░░░░░░░░░░░░░░░░░░   17.19 %
+JavaScript       8 hrs 32 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   12.88 %
+HTML             7 hrs           ██▓░░░░░░░░░░░░░░░░░░░░░░   10.57 %
+Blade Template   4 hrs 44 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.14 %
+JSON             2 hrs 5 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.14 %
 ```
 
 <!--END_SECTION:waka-->
