@@ -15,16 +15,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 15 January 2023 - To: 14 February 2023
+From: 16 January 2023 - To: 15 February 2023
 
-Total Time: 52 hrs 16 mins
+Total Time: 47 hrs 36 mins
 
-PHP              27 hrs 4 mins   █████████████░░░░░░░░░░░░   51.37 %
-TypeScript       19 hrs 39 mins  █████████▒░░░░░░░░░░░░░░░   37.29 %
-JavaScript       2 hrs 13 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   04.22 %
-Vue.js           1 hr 3 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.00 %
-Python           35 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.13 %
-Bash             30 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.97 %
+PHP              24 hrs 14 mins  ████████████▓░░░░░░░░░░░░   50.49 %
+TypeScript       18 hrs 6 mins   █████████▒░░░░░░░░░░░░░░░   37.70 %
+JavaScript       2 hrs 13 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   04.63 %
+Vue.js           1 hr 3 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.20 %
+Python           35 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
+Bash             27 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.96 %
 ```
 
 <!--END_SECTION:waka-->
