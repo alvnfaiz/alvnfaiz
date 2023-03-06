@@ -15,14 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 01 February 2023 - To: 03 March 2023
+From: 02 February 2023 - To: 04 March 2023
 
-Total Time: 12 hrs 29 mins
+Total Time: 8 hrs 16 mins
 
-JavaScript       3 hrs 25 mins   ██████▒░░░░░░░░░░░░░░░░░░   24.87 %
-PHP              3 hrs 4 mins    █████▓░░░░░░░░░░░░░░░░░░░   22.38 %
-TypeScript       2 hrs 44 mins   █████░░░░░░░░░░░░░░░░░░░░   19.99 %
-Other            1 hr 14 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.08 %
+JavaScript       3 hrs 25 mins   █████████░░░░░░░░░░░░░░░░   35.90 %
+PHP              1 hr 35 mins    ████▒░░░░░░░░░░░░░░░░░░░░   16.70 %
+Other            1 hr 14 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.10 %
 ```
 
 <!--END_SECTION:waka-->
