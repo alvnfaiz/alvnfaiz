@@ -15,16 +15,16 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 24 February 2023 - To: 26 March 2023
+From: 25 February 2023 - To: 27 March 2023
 
-Total Time: 9 hrs 51 mins
+Total Time: 10 hrs 13 mins
 
-TypeScript       4 hrs 19 mins   ███████████░░░░░░░░░░░░░░   43.59 %
-PHP              2 hrs 55 mins   ███████▒░░░░░░░░░░░░░░░░░   29.39 %
-JavaScript       1 hr 57 mins    █████░░░░░░░░░░░░░░░░░░░░   19.68 %
-SCSS             10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.71 %
-JSON             9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
-Ruby             8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.45 %
+TypeScript       4 hrs 19 mins   ██████████▓░░░░░░░░░░░░░░   42.06 %
+PHP              2 hrs 56 mins   ███████░░░░░░░░░░░░░░░░░░   28.55 %
+JavaScript       2 hrs 16 mins   █████▓░░░░░░░░░░░░░░░░░░░   22.09 %
+JSON             10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.75 %
+SCSS             10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.65 %
+Ruby             8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.40 %
 ```
 
 <!--END_SECTION:waka-->
