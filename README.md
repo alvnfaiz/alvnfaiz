@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 July 2023 - To: 28 August 2023
+From: 30 July 2023 - To: 29 August 2023
 
-Total Time: 17 hrs 20 mins
+Total Time: 20 hrs 12 mins
 
-Python           9 hrs 17 mins   █████████████▒░░░░░░░░░░░   53.11 %
-TypeScript       5 hrs 5 mins    ███████▒░░░░░░░░░░░░░░░░░   29.12 %
-PHP              1 hr 44 mins    ██▒░░░░░░░░░░░░░░░░░░░░░░   09.94 %
-JavaScript       42 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.06 %
-Assembly         17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
+Python           9 hrs 17 mins   ███████████▒░░░░░░░░░░░░░   45.63 %
+TypeScript       7 hrs 52 mins   █████████▓░░░░░░░░░░░░░░░   38.70 %
+PHP              1 hr 44 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   08.53 %
+JavaScript       47 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.91 %
+Assembly         17 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.40 %
 ```
 
 <!--END_SECTION:waka-->
