@@ -15,14 +15,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 24 September 2023 - To: 24 October 2023
+From: 25 September 2023 - To: 25 October 2023
 
-Total Time: 21 hrs 28 mins
+Total Time: 21 hrs 19 mins
 
-PHP              14 hrs 17 mins  ████████████████▓░░░░░░░░   66.24 %
-JavaScript       3 hrs 23 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.73 %
-HTML             3 hrs 9 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.63 %
-Bash             18 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
+PHP              14 hrs 7 mins   ████████████████▒░░░░░░░░   65.99 %
+JavaScript       3 hrs 23 mins   ████░░░░░░░░░░░░░░░░░░░░░   15.84 %
+HTML             3 hrs 9 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.74 %
+Bash             18 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.47 %
 JSON             5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.45 %
 ```
 
