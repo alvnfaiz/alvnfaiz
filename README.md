@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 November 2023 - To: 16 December 2023
+From: 17 November 2023 - To: 17 December 2023
 
-Total Time: 54 hrs 57 mins
+Total Time: 59 hrs 40 mins
 
-Blade Template   18 hrs 53 mins  ████████▓░░░░░░░░░░░░░░░░   34.28 %
-PHP              18 hrs 11 mins  ████████▒░░░░░░░░░░░░░░░░   33.02 %
-TypeScript       6 hrs 58 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.66 %
-Python           3 hrs 58 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.23 %
-HTML             3 hrs 47 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   06.89 %
+Blade Template   20 hrs 19 mins  ████████▒░░░░░░░░░░░░░░░░   33.99 %
+PHP              19 hrs 9 mins   ████████░░░░░░░░░░░░░░░░░   32.04 %
+TypeScript       6 hrs 58 mins   ███░░░░░░░░░░░░░░░░░░░░░░   11.66 %
+HTML             4 hrs 38 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   07.76 %
+Python           4 hrs 13 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
 ```
 
 <!--END_SECTION:waka-->
