@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 January 2024 - To: 05 February 2024
+From: 07 January 2024 - To: 06 February 2024
 
-Total Time: 21 hrs 35 mins
+Total Time: 25 hrs 16 mins
 
-PHP              6 hrs 37 mins   ███████▓░░░░░░░░░░░░░░░░░   30.67 %
-JavaScript       5 hrs 59 mins   ███████░░░░░░░░░░░░░░░░░░   27.72 %
-TypeScript       3 hrs 11 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.79 %
-Blade Template   3 hrs 8 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.50 %
-Dart             59 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.61 %
+PHP              8 hrs 22 mins   ████████▒░░░░░░░░░░░░░░░░   33.10 %
+JavaScript       5 hrs 59 mins   ██████░░░░░░░░░░░░░░░░░░░   23.69 %
+Blade Template   4 hrs 57 mins   █████░░░░░░░░░░░░░░░░░░░░   19.60 %
+TypeScript       3 hrs 11 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.64 %
+Dart             1 hr 6 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 %
 ```
 
 <!--END_SECTION:waka-->
