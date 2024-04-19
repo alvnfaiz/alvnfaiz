@@ -15,13 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 17 March 2024 - To: 16 April 2024
+From: 18 March 2024 - To: 17 April 2024
 
-Total Time: 2 hrs 38 mins
+Total Time: 1 hr 2 mins
 
-Blade Template   1 hr 41 mins    ████████████████░░░░░░░░░   64.10 %
-HTML             56 mins         █████████░░░░░░░░░░░░░░░░   35.82 %
-Other            0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 %
+HTML    56 mins         ██████████████████████▓░░   90.60 %
+PHP     5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.20 %
+Other   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
 ```
 
 <!--END_SECTION:waka-->
