@@ -15,13 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 23 March 2024 - To: 22 April 2024
+From: 24 March 2024 - To: 23 April 2024
 
 Total Time: 1 hr 2 mins
 
-HTML    56 mins         ██████████████████████▓░░   90.60 %
-PHP     5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.20 %
-Other   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 %
+HTML    56 mins         █████████████████████░░░░   83.61 %
+PHP     5 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 %
+Other   5 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   07.90 %
 ```
 
 <!--END_SECTION:waka-->
