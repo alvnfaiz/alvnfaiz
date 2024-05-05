@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 02 April 2024 - To: 02 May 2024
+From: 03 April 2024 - To: 03 May 2024
 
-Total Time: 1 hr 47 mins
+Total Time: 2 hrs 2 mins
 
-PHP             1 hr 14 mins    ██████████████▒░░░░░░░░░░   57.43 %
-Other           21 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.84 %
-JavaScript      13 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.16 %
-HTML            11 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   08.79 %
-Bash            5 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 %
+PHP             1 hr 14 mins    █████████████░░░░░░░░░░░░   51.45 %
+Other           21 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.09 %
+HTML            15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.94 %
+Bash            15 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.84 %
+JavaScript      13 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.10 %
 ```
 
 <!--END_SECTION:waka-->
