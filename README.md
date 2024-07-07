@@ -1,6 +1,6 @@
 ### Hi there 👋
 - 🌱 I’m currently learning Flutter
--  I’m currently working with laravel, Tailwind, Bootstrap, .Net
+-  I’m currently working with laravel, Tailwind, .Net
 - 📫 How to reach me: alvin.eagle.23@gmail.com
 
 
