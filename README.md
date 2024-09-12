@@ -15,12 +15,12 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 10 August 2024 - To: 09 September 2024
+From: 11 August 2024 - To: 10 September 2024
 
 Total Time: 3 hrs 18 mins
 
-PHP              2 hrs 15 mins   ███████████████▒░░░░░░░░░   61.63 %
-Blade Template   37 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.06 %
+PHP              2 hrs 15 mins   ███████████████▒░░░░░░░░░   61.65 %
+Blade Template   37 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.03 %
 JSON             23 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.61 %
 Other            21 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.92 %
 Dart             0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.41 %
