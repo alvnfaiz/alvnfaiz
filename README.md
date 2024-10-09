@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 06 September 2024 - To: 06 October 2024
+From: 07 September 2024 - To: 07 October 2024
 
-Total Time: 10 hrs 36 mins
+Total Time: 11 hrs 3 mins
 
-PHP                7 hrs 35 mins   █████████████████▒░░░░░░░   69.64 %
-TypeScript         55 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.46 %
-Python             50 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.76 %
-SQL                31 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.81 %
-Bash               20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.07 %
+PHP                7 hrs 38 mins   █████████████████░░░░░░░░   67.34 %
+TypeScript         55 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.13 %
+Python             50 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.46 %
+SQL                31 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.62 %
+C                  23 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.50 %
 ```
 
 <!--END_SECTION:waka-->
