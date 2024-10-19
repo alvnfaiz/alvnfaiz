@@ -15,14 +15,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 16 September 2024 - To: 16 October 2024
+From: 17 September 2024 - To: 17 October 2024
 
 Total Time: 38 hrs 53 mins
 
-PHP               19 hrs 56 mins  ████████████▓░░░░░░░░░░░░   50.23 %
+PHP               19 hrs 25 mins  ████████████▒░░░░░░░░░░░░   48.92 %
 Blade Template    8 hrs 16 mins   █████▒░░░░░░░░░░░░░░░░░░░   20.83 %
+Java              2 hrs 1 min     █▒░░░░░░░░░░░░░░░░░░░░░░░   05.08 %
 JavaScript        2 hrs           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.07 %
-Java              1 hr 25 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.61 %
 C                 1 hr 17 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.24 %
 ```
 
