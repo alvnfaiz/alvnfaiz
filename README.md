@@ -3,7 +3,6 @@
 -  I’m currently working with laravel, Tailwind, .Net
 - 📫 How to reach me: alvin.eagle.23@gmail.com
 
-[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=315eylfkgjr33p5izuoinfmy7xgq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=true)](https://spotify-github-profile.kittinanx.com/api/view?uid=315eylfkgjr33p5izuoinfmy7xgq&redirect=true)
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)
 
