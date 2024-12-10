@@ -1,7 +1,8 @@
 ### Hi there 👋
 - 🌱 I’m currently learning Flutter
--  I’m currently working with laravel, Tailwind, .Net
-- 📫 How to reach me: alvin.eagle.23@gmail.com
+-  I’m currently working with Laravel, Tailwind, .Net
+
+[![](https://visitcount.itsvg.in/api?id=alvnfaiz&label=Profile%20Views&color=5&icon=6&pretty=true)](https://visitcount.itsvg.in)
 
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)
