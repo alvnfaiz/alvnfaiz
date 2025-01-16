@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 December 2024 - To: 13 January 2025
+From: 15 December 2024 - To: 14 January 2025
 
-Total Time: 65 hrs 51 mins
+Total Time: 69 hrs 14 mins
 
-PHP              31 hrs 2 mins   ███████████▒░░░░░░░░░░░░░   44.96 %
-Blade Template   25 hrs 52 mins  █████████▒░░░░░░░░░░░░░░░   37.49 %
-Other            3 hrs 11 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   04.61 %
-Text             1 hr 49 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.65 %
-HTML             1 hr 49 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.64 %
+PHP              32 hrs 2 mins   ███████████░░░░░░░░░░░░░░   44.13 %
+Blade Template   25 hrs 53 mins  █████████░░░░░░░░░░░░░░░░   35.66 %
+Other            3 hrs 22 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   04.66 %
+JavaScript       2 hrs 48 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.87 %
+HTML             2 hrs 26 mins   █░░░░░░░░░░░░░░░░░░░░░░░░   03.35 %
 ```
 
 <!--END_SECTION:waka-->
