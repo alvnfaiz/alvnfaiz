@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 18 March 2025 - To: 17 April 2025
+From: 19 March 2025 - To: 18 April 2025
 
-Total Time: 22 hrs 8 mins
+Total Time: 18 hrs 58 mins
 
-Blade Template   13 hrs 40 mins  ███████████████▒░░░░░░░░░   61.74 %
-PHP              8 hrs 10 mins   █████████▒░░░░░░░░░░░░░░░   36.91 %
-JavaScript       6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 %
-Bash             4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.32 %
-JSON             3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
+Blade Template   11 hrs 17 mins  ███████████████░░░░░░░░░░   59.53 %
+PHP              7 hrs 25 mins   █████████▓░░░░░░░░░░░░░░░   39.12 %
+JavaScript       6 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 %
+Bash             4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
+JSON             3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.29 %
 ```
 
 <!--END_SECTION:waka-->
