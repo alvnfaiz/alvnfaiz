@@ -15,15 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 13 April 2025 - To: 13 May 2025
+From: 14 April 2025 - To: 14 May 2025
 
-Total Time: 2 hrs 55 mins
+Total Time: 20 mins
 
-PHP              2 hrs 29 mins   ███████████████████░░░░░░   75.59 %
-Other            22 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.33 %
-Bash             18 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.26 %
-Blade Template   7 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 %
-Apache Config    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 %
+Other   22 mins         █████████████░░░░░░░░░░░░   52.48 %
+Bash    16 mins         █████████▓░░░░░░░░░░░░░░░   38.54 %
+PHP     3 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   08.99 %
 ```
 
 <!--END_SECTION:waka-->
