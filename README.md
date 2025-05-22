@@ -15,13 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 19 April 2025 - To: 19 May 2025
+From: 21 April 2025 - To: 21 May 2025
 
-Total Time: 53 mins
+Total Time: 51 mins
 
-PHP     37 mins         ████████████▒░░░░░░░░░░░░   49.20 %
-Other   22 mins         ███████▒░░░░░░░░░░░░░░░░░   29.29 %
-Bash    16 mins         █████▒░░░░░░░░░░░░░░░░░░░   21.51 %
+PHP     35 mins         ████████████░░░░░░░░░░░░░   48.04 %
+Other   22 mins         ███████▒░░░░░░░░░░░░░░░░░   29.96 %
+Bash    16 mins         █████▓░░░░░░░░░░░░░░░░░░░   22.00 %
 ```
 
 <!--END_SECTION:waka-->
