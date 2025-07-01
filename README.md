@@ -15,14 +15,14 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 29 May 2025 - To: 28 June 2025
+From: 30 May 2025 - To: 29 June 2025
 
-Total Time: 2 hrs 1 min
+Total Time: 1 hr 37 mins
 
-PHP          1 hr 52 mins    ███████████████████████▒░   93.21 %
-CSS          4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.32 %
-JavaScript   4 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.31 %
-Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 %
+PHP          1 hr 29 mins    ███████████████████████░░   91.64 %
+CSS          4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.13 %
+JavaScript   4 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   04.12 %
+Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 %
 ```
 
 <!--END_SECTION:waka-->
