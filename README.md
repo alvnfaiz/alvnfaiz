@@ -15,13 +15,13 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 04 September 2025 - To: 04 October 2025
+From: 05 September 2025 - To: 05 October 2025
 
-Total Time: 32 hrs 13 mins
+Total Time: 32 hrs 26 mins
 
-HTML                       24 hrs 51 mins  ███████████████████▒░░░░░   77.02 %
-PHP                        5 hrs 13 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.22 %
-CSS                        1 hr 40 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.19 %
+HTML                       25 hrs 4 mins   ███████████████████▒░░░░░   77.18 %
+PHP                        5 hrs 13 mins   ████░░░░░░░░░░░░░░░░░░░░░   16.10 %
+CSS                        1 hr 40 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.16 %
 Bash                       13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.68 %
 Markdown                   10 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.55 %
 ```
