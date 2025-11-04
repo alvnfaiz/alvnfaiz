@@ -15,12 +15,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 03 October 2025 - To: 02 November 2025
+From: 04 October 2025 - To: 03 November 2025
 
-Total Time: 3 hrs 50 mins
+Total Time: 1 hr 35 mins
 
-HTML   3 hrs 48 mins   ████████████████████████▓   98.84 %
-CSS    2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.16 %
+HTML   1 hr 35 mins    █████████████████████████   100.00 %
 ```
 
 <!--END_SECTION:waka-->
