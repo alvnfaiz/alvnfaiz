@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 August 2026 - To: 04 September 2026
+From: 06 August 2026 - To: 05 September 2026
 
-Total Time: 5 hrs 17 mins
+Total Time: 5 hrs 2 mins
 
-Other            3 hrs 1 min           █████████░░░░░░░░░░░░░░░░   36.46 %
-TypeScript       1 hr 8 mins           ███▒░░░░░░░░░░░░░░░░░░░░░   13.64 %
-Go               39 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.96 %
-Text             39 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.93 %
-TOML             30 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.21 %
+Other            3 hrs 14 mins         █████████▓░░░░░░░░░░░░░░░   39.16 %
+TypeScript       1 hr 8 mins           ███▒░░░░░░░░░░░░░░░░░░░░░   13.69 %
+Text             39 mins               ██░░░░░░░░░░░░░░░░░░░░░░░   07.96 %
+TOML             30 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.23 %
+Bash             29 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.02 %
 ```
 
 <!--END_SECTION:waka-->
