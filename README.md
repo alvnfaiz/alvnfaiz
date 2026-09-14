@@ -15,15 +15,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 12 August 2026 - To: 11 September 2026
+From: 13 August 2026 - To: 12 September 2026
 
-Total Time: 18 hrs 48 mins
+Total Time: 17 hrs 48 mins
 
-Svelte            5 hrs 33 mins         ██████░░░░░░░░░░░░░░░░░░░   24.63 %
-Other             3 hrs 45 mins         ████▒░░░░░░░░░░░░░░░░░░░░   16.68 %
-Go                3 hrs 42 mins         ████░░░░░░░░░░░░░░░░░░░░░   16.43 %
-TypeScript        2 hrs 23 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.62 %
-Markdown          1 hr 25 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.34 %
+Svelte            5 hrs 19 mins         ██████▒░░░░░░░░░░░░░░░░░░   24.72 %
+Other             3 hrs 45 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.41 %
+Go                3 hrs 42 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.19 %
+TypeScript        1 hr 43 mins          ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
+Markdown          1 hr 24 mins          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
 ```
 
 <!--END_SECTION:waka-->
