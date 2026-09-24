@@ -5,12 +5,12 @@
 [![](https://visitcount.itsvg.in/api?id=alvnfaiz&label=Profile%20Views&color=5&icon=6&pretty=true)](https://visitcount.itsvg.in)
 
 
-![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)
+<!--![github stats](https://github-readme-stats.vercel.app/api?username=alvnfaiz&show_icons=true)-->
 
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Montserrat&color=%2336BCF7&duration=4000&center=true&lines=Alvin+Faiz;Fullstack+Developer;PHP%2C+Java%2C+Javascript%2C+Python;Laravel%2C+Vue%202%2C+Tailwind%2C+Bootstrap)](https://git.io/typing-svg)
 
-<!--[![Alvnfaiz wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=alvnfaiz&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+[![Alvnfaiz wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=alvnfaiz&layout=compact&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--START_SECTION:waka-->
 
